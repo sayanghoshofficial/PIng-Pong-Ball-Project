@@ -1,0 +1,58 @@
+/* body style */
+body{
+    /* background-image: linear-gradient(75deg,rgb(135, 35, 216),rgb(49, 10, 223)); */
+    background-image: url(image/wallpaper2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: lightblue;
+}
+/* container style */
+#container {
+    position: absolute;
+}
+/* instruction box style */
+#instruction{
+    position: relative;
+    width: 100px;
+    height: 200px;
+    justify-content: center;
+    border: 2px dashed red;
+}
+/* ball style */
+#ball {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    box-shadow: -1px 1px 6px 3px;
+    position: fixed;
+    top: 50%;
+    left: 52.5%;
+    border-radius: 50%;
+}
+/* rod style */
+#rod1, #rod2 {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+#rod1 {
+    background-color: rgb(7, 7, 71);
+    top: 0px; 
+    box-shadow: -1px 1px 7px 2px;    
+}
+
+#rod2 {
+    background-color: rgb(39, 4, 71);
+    bottom: 0px;
+    box-shadow: 1px -1px 7px 2px;
+}
